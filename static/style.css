@@ -1,0 +1,381 @@
+/* 新增卡片表單 */
+.form-section {
+    background: white;
+    padding: 24px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-section label {
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section select {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.form-section button {
+    padding: 12px;
+    margin-top: 10px;
+    background: #233b63;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background: #34598d;
+}
+
+
+
+/* 刪除按鈕 */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #b02a37;
+}
+
+
+/* 編輯按鈕 */
+.edit-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.edit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+.import-result {
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+}
+
+.import-result h3 {
+    margin-top: 0;
+    color: #166534;
+}
+
+.import-result p {
+    margin: 8px 0;
+}
+
+/* 卡片行情分析頁 */
+
+.analysis-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 20px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.stat-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 15px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+.stat-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.analysis-card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.analysis-card th,
+.analysis-card td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-box p {
+        font-size: 18px;
+    }
+}
+
+
+.analysis-filter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.analysis-filter select {
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+.analysis-filter button {
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.analysis-filter button:hover {
+    background-color: #1d4ed8;
+}
+
+
+.price-low {
+    color: #15803d;
+    font-weight: bold;
+}
+
+.price-high {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+
+.quick-import {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+#quickImportBtn {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+#quickImportBtn:hover {
+    background-color: #15803d;
+}
+
+#quickImportBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#clipboardMessage {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.analysis-card-image{display:block;max-width:240px;max-height:340px;width:auto;height:auto;object-fit:contain;margin:0 0 18px;border-radius:8px}.analysis-image-placeholder{width:200px;height:250px;background:#f1f5f9;color:#64748b;display:grid;place-items:center;margin-bottom:18px;border-radius:8px}
+
+
+/* 卡片行情分析頁：圖片與資料並排（只影響分析頁） */
+.analysis-page {
+    width: min(100% - 32px, 1200px);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 48px;
+    box-sizing: border-box;
+}
+.analysis-page .card-detail-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px;
+}
+.analysis-page .card-detail-media {
+    width: 260px;
+    flex: 0 0 260px;
+}
+.analysis-page .card-detail-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 370px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.analysis-page .analysis-image-placeholder {
+    width: 100%;
+    height: 340px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #f1f5f9;
+    color: #64748b;
+}
+.analysis-page .card-detail-info { flex: 1; min-width: 0; }
+.analysis-page .card-detail-info h2 { margin: 0 0 18px; font-size: 28px; }
+.analysis-page .card-detail-info p { margin: 9px 0; line-height: 1.6; }
+.analysis-page .card-detail-price {
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2563eb;
+}
+.analysis-page .card-detail-price-caption { color: #64748b; font-size: 14px; }
+.analysis-page .chart-container { height: 350px; max-height: 350px; }
+.analysis-page .analysis-card { overflow-x: auto; }
+@media (max-width: 768px) {
+    .analysis-page { width: calc(100% - 24px); padding: 12px 0 32px; }
+    .analysis-page .card-detail-header { flex-direction: column; align-items: center; gap: 18px; }
+    .analysis-page .card-detail-media { width: 220px; flex: 0 0 auto; }
+    .analysis-page .card-detail-info { width: 100%; }
+    .analysis-page .card-detail-info h2 { font-size: 24px; }
+    .analysis-page .card-detail-price { font-size: 28px; }
+    .analysis-page .analysis-filter { flex-wrap: wrap; }
+}
+
+/* 四項行情統計合併圖 */
+.chart-comparison-container { height: 390px; max-height: 390px; }
+.chart-note { color: #64748b; font-size: 14px; line-height: 1.6; }
+@media (max-width: 768px) { .chart-comparison-container { height: 320px; max-height: 320px; } }
+
+/* 每日統計圖與逐筆歷史圖分開呈現 */
+.chart-subtitle { margin: 28px 0 8px; font-size: 19px; }
+.chart-record-container { height: 340px; }
+@media (max-width: 768px) { .chart-record-container { height: 280px; } }
+
+/* 每日四項長條比較圖日期選擇 */
+.daily-chart-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 14px 0; }
+.daily-chart-toolbar select { padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; background: #fff; }
+
+/* 行情篩選器：日期與販售狀態並列，手機自動換行 */
+.analysis-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.analysis-filter select { max-width: 100%; }
+@media (max-width: 600px) {
+    .analysis-filter { align-items: stretch; }
+    .analysis-filter label { width: 100%; }
+    .analysis-filter select, .analysis-filter button { width: 100%; }
+}
+
+/* 後台價格紀錄管理（僅影響 /admin） */
+.admin-records-panel{background:#fff;border:1px solid #e2e8f0;border-radius:16px;padding:24px;margin:28px 0 48px;box-shadow:0 3px 15px rgba(15,23,42,.04);color:#0f172a}
+.admin-records-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:20px}
+.admin-records-heading h2{font-size:24px;margin:0 0 6px}
+.admin-records-heading p,.admin-records-hint{margin:0;color:#64748b;font-size:14px}
+.admin-records-count{background:#eff6ff;color:#1d4ed8;padding:7px 12px;border-radius:20px;font-size:14px;white-space:nowrap}
+.admin-records-toolbar{display:flex;flex-direction:row!important;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 12px}
+.admin-records-toolbar input{flex:1;min-width:190px}
+.admin-records-toolbar input,.admin-records-toolbar select{border:1px solid #cbd5e1;border-radius:8px;padding:11px 12px;font-size:15px;background:white}
+.admin-records-toolbar button{margin:0!important;border:0;border-radius:8px;background:#2563eb;color:#fff;padding:11px 20px;cursor:pointer}
+.admin-clear-btn{padding:10px 12px;color:#475569;text-decoration:none;font-size:14px}
+.admin-records-hint{margin-bottom:12px}
+.admin-records-table-wrap{overflow-x:auto}
+.admin-records-table{width:100%;border-collapse:separate;border-spacing:0;min-width:680px;text-align:left}
+.admin-records-table th{background:#f8fafc;color:#64748b;font-size:13px;font-weight:700;padding:15px 14px;border-bottom:1px solid #e2e8f0;white-space:nowrap}
+.admin-records-table td{padding:17px 14px;border-bottom:1px solid #edf2f7;vertical-align:middle;font-size:14px}
+.admin-records-table tbody tr:hover{background:#f8fafc}
+.admin-records-table tr[hidden]{display:none}
+.admin-card-name,.admin-card-number,.admin-card-meta,.admin-card-extra,.admin-source-link{display:block}
+.admin-card-name{font-size:15px;margin-bottom:5px}
+.admin-card-number{color:#475569;font-size:13px;margin-bottom:5px}
+.admin-card-meta{font-size:13px;color:#334155}
+.admin-card-extra{color:#94a3b8;font-size:12px;margin-top:5px}
+.admin-record-price{display:block;font-size:17px;white-space:nowrap;margin-bottom:8px}
+.admin-price-tag{display:inline-block;padding:4px 9px;border-radius:99px;font-size:12px;font-weight:700}
+.admin-price-asking{background:#dbeafe;color:#1d4ed8}
+.admin-price-sold{background:#dcfce7;color:#15803d}
+.admin-source-link{color:#2563eb;margin-top:7px;text-decoration:none;font-size:13px}
+.admin-record-date{color:#475569;white-space:nowrap;font-variant-numeric:tabular-nums}
+.admin-action-menu{position:relative;min-width:90px}
+.admin-action-menu summary{cursor:pointer;list-style:none;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:8px;padding:9px 12px;color:#334155;font-weight:600;white-space:nowrap}
+.admin-action-menu summary::-webkit-details-marker{display:none}
+.admin-action-content{position:absolute;z-index:20;right:0;top:calc(100% + 4px);min-width:145px;background:#fff;border:1px solid #e2e8f0;box-shadow:0 8px 24px rgba(15,23,42,.15);border-radius:10px;padding:6px}
+.admin-action-content a,.admin-action-content button{display:block;width:100%;box-sizing:border-box;text-align:left;text-decoration:none;border:0;border-radius:6px;background:none;padding:10px 12px;color:#334155;font-size:14px;cursor:pointer;font-weight:400;margin:0}
+.admin-action-content a:hover,.admin-action-content button:hover{background:#f1f5f9}
+.admin-action-content .admin-action-delete{color:#dc2626}
+.admin-record-empty{text-align:center;color:#64748b;padding:24px}
+@media(max-width:700px){.admin-records-panel{padding:14px}.admin-records-heading h2{font-size:21px}.admin-records-toolbar input,.admin-records-toolbar select{width:100%;flex:auto}.admin-records-toolbar button{flex:1}.admin-records-heading{align-items:flex-start}}
+
+/* 後台卡片分組：預設收合，展開才顯示逐筆歷史 */
+.admin-group-list{display:grid;gap:12px}
+.admin-card-group{border:1px solid #e2e8f0;border-radius:12px;background:#fff;overflow:visible}
+.admin-card-group[hidden]{display:none}
+.admin-card-group[open]{border-color:#93c5fd;box-shadow:0 4px 16px rgba(37,99,235,.07)}
+.admin-group-summary{display:grid;grid-template-columns:minmax(180px,2fr) minmax(120px,1fr) minmax(120px,1fr) auto;align-items:center;gap:16px;padding:20px;cursor:pointer;list-style:none}
+.admin-group-summary::-webkit-details-marker{display:none}
+.admin-group-summary:hover{background:#f8fafc;border-radius:12px}
+.admin-group-title strong,.admin-group-title span,.admin-group-title small,.admin-group-stat span,.admin-group-stat small{display:block}
+.admin-group-title strong{font-size:17px;margin-bottom:6px;color:#0f172a}
+.admin-group-title span{font-size:13px;color:#475569}
+.admin-group-title small{font-size:12px;color:#64748b;margin-top:5px}
+.admin-group-stat span{font-size:12px;color:#64748b;margin-bottom:5px}
+.admin-group-stat strong{display:block;font-size:20px;white-space:nowrap}
+.admin-group-stat small{font-size:12px;color:#64748b;margin-top:4px}
+.admin-group-asking{color:#2563eb}
+.admin-group-sold{color:#16a34a}
+.admin-group-toggle{color:#2563eb;font-size:13px;font-weight:700;white-space:nowrap}
+.admin-card-group[open] .admin-group-toggle span{display:inline-block;transform:rotate(180deg)}
+.admin-group-detail{padding:0 20px 20px;border-top:1px solid #e2e8f0}
+.admin-group-detail-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;padding:17px 0}
+.admin-group-detail-heading a{color:#2563eb;text-decoration:none;font-size:14px}
+.admin-group-table{min-width:620px}
+.admin-group-table td{padding:12px 14px}
+.admin-group-table .admin-record-price{margin:0}
+.admin-group-table .admin-action-menu{width:112px;min-width:112px}
+@media(max-width:720px){.admin-group-summary{grid-template-columns:1fr 1fr;gap:14px}.admin-group-title{grid-column:1/-1}.admin-group-toggle{grid-column:1/-1}.admin-group-detail{padding:0 12px 14px}.admin-group-stat strong{font-size:18px}}
+
+/* 後台 SQLite 分頁 */
+.admin-pagination{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:16px;margin:24px 0 4px}
+.admin-pagination a{padding:10px 16px;border:1px solid #cbd5e1;border-radius:8px;text-decoration:none;background:#fff;color:#1d4ed8}
+.admin-pagination a:hover{background:#eff6ff}
+.admin-records-toolbar select{min-width:145px}

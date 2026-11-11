@@ -1,0 +1,140 @@
+[
+  {
+    "code": "CSM",
+    "name": "鏈鋸人",
+    "packs": [
+      {
+        "code": "csm1",
+        "name": "チェンソーマン"
+      }
+    ]
+  },
+  {
+    "code": "JJK",
+    "name": "咒術迴戰",
+    "packs": [
+      {
+        "code": "jjk1",
+        "name": "呪術廻戦"
+      },
+      {
+        "code": "jjk3",
+        "name": "呪術廻戦 Vol.2"
+      },
+      {
+        "code": "jjk2",
+        "name": "NEW CARD SELECTION 呪術廻戦"
+      }
+    ]
+  },
+  {
+    "code": "KMY",
+    "name": "鬼滅之刃",
+    "packs": [
+      {
+        "code": "kmy1",
+        "name": "鬼滅の刃"
+      },
+      {
+        "code": "kmy3",
+        "name": "鬼滅の刃 Vol.2"
+      },
+      {
+        "code": "kmy2",
+        "name": "NEW CARD SELECTION 鬼滅の刃"
+      }
+    ]
+  },
+  {
+    "code": "HTR",
+    "name": "全職獵人",
+    "packs": [
+      {
+        "code": "htr1",
+        "name": "HUNTER×HUNTER"
+      },
+      {
+        "code": "htr2",
+        "name": "HUNTER×HUNTER Vol.2"
+      }
+    ]
+  },
+  {
+    "code": "BLC",
+    "name": "BLEACH 死神",
+    "packs": [
+      {
+        "code": "blc1",
+        "name": "BLEACH 千年血戦篇"
+      },
+      {
+        "code": "blc2",
+        "name": "BLEACH 千年血戦篇 Vol.2"
+      },
+      {
+        "code": "blc4",
+        "name": "BLEACH 千年血戦篇 Vol.3"
+      },
+      {
+        "code": "blc3",
+        "name": "NEW CARD SELECTION BLEACH 千年血戦篇"
+      },
+      {
+        "code": "dcblc",
+        "name": "アドバンスドデッキ  BLEACH 千年血戦篇"
+      }
+    ]
+  },
+  {
+    "code": "SAO",
+    "name": "刀劍神域",
+    "packs": [
+      {
+        "code": "sao1",
+        "name": "ソードアート・オンライン"
+      },
+      {
+        "code": "sao2",
+        "name": "ソードアート・オンライン Vol.2"
+      }
+    ]
+  },
+  {
+    "code": "NIK",
+    "name": "勝利女神：妮姬",
+    "packs": [
+      {
+        "code": "nik1",
+        "name": "勝利の女神：NIKKE"
+      },
+      {
+        "code": "nik2",
+        "name": "プレシャスブースターパック 勝利の女神：NIKKE"
+      }
+    ]
+  },
+  {
+    "code": "CGH",
+    "name": "反叛的魯路修",
+    "packs": [
+      {
+        "code": "cgh1",
+        "name": "コードギアス 反逆のルルーシュ"
+      },
+      {
+        "code": "cgh2",
+        "name": "コードギアス 反逆のルルーシュ Vol.2"
+      }
+    ]
+  },
+  {
+    "code": "STG",
+    "name": "命運石之門",
+    "packs": [
+      {
+        "code": "stg1",
+        "name": "シュタインズ・ゲート"
+      }
+    ]
+  }
+]

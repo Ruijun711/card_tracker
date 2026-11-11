@@ -1,0 +1,1 @@
+<select name="series" aria-label="作品分類"><option value="">全部作品</option>{% for s in series_options %}<option value="{{ s.code }}" {% if selected_series==s.code %}selected{% endif %}>{{ s.name }}</option>{% endfor %}</select>

@@ -1,0 +1,6 @@
+<a class="skip-link" href="#page-content">跳至主要內容</a>
+<nav class="topbar" aria-label="主要導覽"><div class="nav-inner">
+<a class="brand" href="{{ url_for('home') }}"><span class="brand-mark" aria-hidden="true">UA</span><span>Card Tracker<small>UNION ARENA · 卡片行情</small></span></a>
+<div class="nav-links"><a href="{{ url_for('comparisons.prices') }}" {% if request.endpoint=='comparisons.prices' %}aria-current="page"{% endif %}>多店價格比較</a><a href="{{ url_for('buyback.offers') }}" {% if request.endpoint=='buyback.offers' %}aria-current="page"{% endif %}>悠悠亭收購</a><a href="{{ url_for('recommendations.cards') }}" {% if request.endpoint=='recommendations.cards' %}aria-current="page"{% endif %}>推薦卡片</a><a href="{{ url_for('yuyutei.prices') }}" {% if request.endpoint == 'yuyutei.prices' %}aria-current="page"{% endif %}>悠悠亭行情</a><a href="{{ url_for('home') }}" {% if request.endpoint == 'home' %}aria-current="page"{% endif %}>卡片圖鑑</a>
+{% if session.get('is_admin') %}<a href="{{ url_for('admin_dashboard') }}" {% if request.endpoint == 'admin_dashboard' %}aria-current="page"{% endif %}>管理後台</a>{% else %}<a href="{{ url_for('admin_login') }}" {% if request.endpoint == 'admin_login' %}aria-current="page"{% endif %}>管理員登入</a>{% endif %}</div>
+</div></nav>

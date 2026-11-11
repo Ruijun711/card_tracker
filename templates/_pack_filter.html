@@ -1,0 +1,1 @@
+<select name="pack" aria-label="商品分類"><option value="">全部商品分類</option>{% for s in series_options %}{% if not selected_series or selected_series==s.code %}<optgroup label="{{ s.name }}">{% for p in s.packs %}<option value="{{ p.code }}" {% if selected_pack==p.code %}selected{% endif %}>{{ p.name }}</option>{% endfor %}</optgroup>{% endif %}{% endfor %}</select>

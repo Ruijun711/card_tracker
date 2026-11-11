@@ -1,0 +1,233 @@
+[
+  {
+    "pack": "csm1",
+    "series_code": "CSM",
+    "series_name": "鏈鋸人",
+    "sid": "13511",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=13511",
+    "name": "〖UA53BT〗チェンソーマン",
+    "card_prefixes": [
+      "UA53BT"
+    ]
+  },
+  {
+    "pack": "jjk1",
+    "series_code": "JJK",
+    "series_name": "咒術迴戰",
+    "sid": "6856",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=6856",
+    "name": "〖UA02BT〗呪術廻戦",
+    "card_prefixes": [
+      "UA02BT"
+    ]
+  },
+  {
+    "pack": "jjk3",
+    "series_code": "JJK",
+    "series_name": "咒術迴戰",
+    "sid": "7984",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7984",
+    "name": "〖EX04BT〗呪術廻戦 Vol.2",
+    "card_prefixes": [
+      "EX04BT"
+    ]
+  },
+  {
+    "pack": "jjk2",
+    "series_code": "JJK",
+    "series_name": "咒術迴戰",
+    "sid": "7487",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7487",
+    "name": "NEW CARD SELECTION 呪術廻戦",
+    "card_prefixes": [
+      "UA02NC"
+    ]
+  },
+  {
+    "pack": "kmy1",
+    "series_code": "KMY",
+    "series_name": "鬼滅之刃",
+    "sid": "6950",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=6950",
+    "name": "〖UA05BT〗鬼滅の刃",
+    "card_prefixes": [
+      "UA05BT"
+    ]
+  },
+  {
+    "pack": "kmy3",
+    "series_code": "KMY",
+    "series_name": "鬼滅之刃",
+    "sid": "8478",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=8478",
+    "name": "〖EX05BT〗ブースターパック 鬼滅の刃 Vol.2",
+    "card_prefixes": [
+      "EX05BT"
+    ]
+  },
+  {
+    "pack": "kmy2",
+    "series_code": "KMY",
+    "series_name": "鬼滅之刃",
+    "sid": "7486",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7486",
+    "name": "NEW CARD SELECTION 鬼滅の刃",
+    "card_prefixes": [
+      "UA01NC"
+    ]
+  },
+  {
+    "pack": "htr1",
+    "series_code": "HTR",
+    "series_name": "全職獵人",
+    "sid": "6859",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=6859",
+    "name": "〖UA03BT〗HUNTER×HUNTER",
+    "card_prefixes": [
+      "UA03BT"
+    ]
+  },
+  {
+    "pack": "htr2",
+    "series_code": "HTR",
+    "series_name": "全職獵人",
+    "sid": "7485",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7485",
+    "name": "〖EX01BT〗HUNTER×HUNTER Vol.2",
+    "card_prefixes": [
+      "EX01BT"
+    ]
+  },
+  {
+    "pack": "blc1",
+    "series_code": "BLC",
+    "series_name": "BLEACH 死神",
+    "sid": "7283",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7283",
+    "name": "〖UA08BT〗BLEACH 千年血戦篇",
+    "card_prefixes": [
+      "UA08BT"
+    ]
+  },
+  {
+    "pack": "blc2",
+    "series_code": "BLC",
+    "series_name": "BLEACH 死神",
+    "sid": "8624",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=8624",
+    "name": "〖UA07EX〗BLEACH 千年血戦篇 Vol.2",
+    "card_prefixes": [
+      "EX07BT"
+    ]
+  },
+  {
+    "pack": "blc4",
+    "series_code": "BLC",
+    "series_name": "BLEACH 死神",
+    "sid": "13976",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=13976",
+    "name": "〖EX15BT〗BLEACH 千年血戦篇 Vol.3",
+    "card_prefixes": [
+      "EX15BT"
+    ]
+  },
+  {
+    "pack": "blc3",
+    "series_code": "BLC",
+    "series_name": "BLEACH 死神",
+    "sid": "10038",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=10038",
+    "name": "NEW CARD SELECTION BLEACH 千年血戦篇",
+    "card_prefixes": [
+      "UA04NC"
+    ]
+  },
+  {
+    "pack": "dcblc",
+    "series_code": "BLC",
+    "series_name": "BLEACH 死神",
+    "sid": "13979",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=13979",
+    "name": "〖UA01DC〗BLEACH 千年血戦篇",
+    "card_prefixes": [
+      "UA01DC"
+    ]
+  },
+  {
+    "pack": "sao1",
+    "series_code": "SAO",
+    "series_name": "刀劍神域",
+    "sid": "7790",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7790",
+    "name": "〖UA15BT〗ブースターパック ソードアート･オンライン",
+    "card_prefixes": [
+      "UA15BT"
+    ]
+  },
+  {
+    "pack": "sao2",
+    "series_code": "SAO",
+    "series_name": "刀劍神域",
+    "sid": "9184",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=9184",
+    "name": "〖EX08BT〗ソードアート・オンラインVol.2",
+    "card_prefixes": [
+      "EX08BT"
+    ]
+  },
+  {
+    "pack": "nik1",
+    "series_code": "NIK",
+    "series_name": "勝利女神：妮姬",
+    "sid": "7943",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7943",
+    "name": "〖UA18BT〗勝利の女神：NIKKE",
+    "card_prefixes": [
+      "UA18BT"
+    ]
+  },
+  {
+    "pack": "nik2",
+    "series_code": "NIK",
+    "series_name": "勝利女神：妮姬",
+    "sid": "13028",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=13028",
+    "name": "〖PC02BT〗勝利の女神：NIKKE",
+    "card_prefixes": [
+      "PC02BT"
+    ]
+  },
+  {
+    "pack": "cgh1",
+    "series_code": "CGH",
+    "series_name": "反叛的魯路修",
+    "sid": "6853",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=6853",
+    "name": "〖UA01BT〗コードギアス 反逆のルルーシュ",
+    "card_prefixes": [
+      "UA01BT"
+    ]
+  },
+  {
+    "pack": "cgh2",
+    "series_code": "CGH",
+    "series_name": "反叛的魯路修",
+    "sid": "7551",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=7551",
+    "name": "〖EX02BT〗コードギアス 反逆のルルーシュ Vol.2",
+    "card_prefixes": [
+      "EX02BT"
+    ]
+  },
+  {
+    "pack": "stg1",
+    "series_code": "STG",
+    "series_name": "命運石之門",
+    "sid": "14211",
+    "url": "https://dorasuta.jp/union-arena/product-list?sid=14211",
+    "name": "〖UA57BT〗シュタインズ・ゲート",
+    "card_prefixes": [
+      "UA57BT"
+    ]
+  }
+]
